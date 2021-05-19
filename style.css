@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+    body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+    header{
+    width: 100%;
+    float: left;
+}
+.logo{
+    width: 25%;
+    float: left;
+}
+.logo
+    img{
+    margin: 25px auto;
+}
+.menu{
+    width: 75%;
+    float: left;
+}
+.menu
+    nav ul{
+    list-style: none;
+}
+.menu
+    nav ul li{
+    display: inline-block;
+    margin: 29px 10px;
+}
+.menu nav ul li a{
+    color: #999999;
+    text-decoration: none;
+    font-size: 13.2pt;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 15px 10px
+}
+.menu nav ul li a:hover{
+    color: #99cc00;
+    background: transparent;
+    font-size: 14pt;
+}
+.banner{
+    width: 100%;
+    float: left;
+    background: url('banner.jpg') no-repeat;
+    background-size: cover;
+}
+.banner .banner-txt{
+    margin: 170px auto;
+    text-align: center;
+}
+.banner-txt h5{
+    font-size: 49.2pt;
+    font-weight: lighter;
+    color: #ffffff;
+}
+.banner-txt h6{
+    font-size: 35.2pt;
+    font-weight: lighter;
+    color: #ffffff;
+}
+.banner-txt .banner-btn{
+    background-color: #99cc00;
+    color: #ffffff;
+    font-size: 19.2pt;
+    font-weight: lighter;
+    padding: 30px 50px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 60px;
+}
+.banner-btn:hover{
+    font-size: 22pt;
+}
+.blog{
+    width: 100%;
+    float: left;
+}
+.blog .blog-main{
+    margin: 100px auto;
+    text-align: center;
+}
+.blog-main .txt{
+    margin: 45px auto;
+}
+.blog-main h1{
+    font-size: 31.2pt;
+    font-weight: normal;
+    color: #666666;
+}
+.blog-main p{
+    color: #999999;
+    font-size: 19.2pt;
+    font-weight: lighter;
+    padding-top: 70px;
+}
+.contact{
+    width: 100%;
+    float: left;
+}
+.properties{
+    width: 50%;
+    float: left;
+    background-color: rgb(204, 255, 255,0.4)
+}
+.icon-1{
+    width: 50%;
+    float: left;
+}
+.properties .icon-1 img{
+    position: relative;
+    left: 60%;
+    margin: 80px auto;
+}
+.detail-1{
+    width: 50%;
+    float: left;
+}
+.detail-1 h1{
+    font-size: 23.2pt;
+    margin-top: 40px;
+}
+.detail-1 p{
+    font-size: 17.2pt;
+    margin: 15px auto;
+}
+.icon1-btn{
+    font-size: 14.84 pt;
+    color: #ffffff;
+    background-color: #3399cc;
+    padding: 17px;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+.buyers{
+    width: 50%;
+    float: left;
+    background-color: #f5f9eb;
+}
+.icon-2{
+    width: 50%;
+    float: left;
+}
+.buyers .icon-2 img{
+    position: relative;
+    left: 60%;
+    margin: 80px auto;
+}
+.detail-2{
+    width: 50%;
+    float: left;
+}
+.detail-2 h1{
+    font-size: 23.2pt;
+    margin-top: 40px;
+}
+.detail-2 p{
+    font-size: 17.2pt;
+    margin: 15px auto;
+}
+.icon2-btn{
+    font-size: 14.84 pt;
+    color: #ffffff;
+    background-color: #99cc33;
+    padding: 17px;
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+.project{
+    width: 100%;
+    float: left;
+}
+.heading{
+    width: 100%;
+    float: left;
+}
+.header{
+    width: 80%;
+    float: left;
+}
+.header h1{
+    font-size: 29.2pt;
+    font-weight: normal;
+    margin-top: 75px;
+}
+.header p{
+    font-size: 17.2pt;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+.button{
+    width: 20%;
+    float: left;
+}
+.button .project-btn{
+    display: block;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.card{
+    width: 100%;
+    float: left;
+}
+.card-1{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+.img1-main img{
+    position: absolute;
+}
+.img1-main .tag-1 p{
+   position: relative;
+    background-color: #3399cc;
+    width: 34%;
+    height: 100%;
+    right: -53%;
+    top: 201px;
+}
+.card-1 .caption-1{
+    position: relative;
+    bottom: -213px;
+    background-color: #f9f9f9;
+}
+.upper-txt h1{
+    font-size: 17.2pt;
+    margin: 20px;
+}
+.upper-txt p{
+    font-size: 13.2pt;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.footer-txt{
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 20px
+}
+.footer-txt p{
+    font-size: 13.2pt;
+    font-weight: lighter;
+}
+.footer-txt .funded{
+    float: left;
+    margin-bottom: 15px;
+}
+.footer-txt .days{
+    float: right;
+}
+.project-details{
+    width: 100%;
+    float: left;
+}
+.project-details p{
+    font-size: 13.2pt;
+    font-weight: lighter;
+    text-align: right;
+}
+.project-details .fa-caret-right{
+    color: #99cc00;
+    font-size: 17pt;
+}
+.card-2{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+.img2-main img{
+    position: absolute;
+}
+.img2-main .tag-2 p{
+   position: relative;
+    background-color: #3399cc;
+    width: 34%;
+    height: 100%;
+    right: -53%;
+    top: 201px;
+}
+.card-2 .caption-2{
+    position: relative;
+    bottom: -213px;
+    background-color: #f9f9f9;
+}
+
+.card-3{
+    width: 30%;
+    float: left;
+    margin: 20px 15px;
+}
+.img3-main img{
+    position: absolute;
+}
+.img3-main .tag-3 p{
+   position: relative;
+    background-color: #3399cc;
+    width: 34%;
+    height: 100%;
+    right: -53%;
+    top: 201px;
+}
+.card-3 .caption-3{
+    position: relative;
+    bottom: -213px;
+    background-color: #f9f9f9;
+}
+.footer-icon{
+    width: 100%;
+    float: left;
+    position: relative;
+    bottom: -231px;
+    margin: 0 auto;
+    text-align: center
+}
+footer{
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 254px;
+}
+footer p{
+    text-align: center;
+    font-size: 13.2pt;
+}
